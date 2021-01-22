@@ -52,4 +52,9 @@ public class GoogleTest {
     SearchResultsPage results = page.searchFor("Selenide");
     assertThat(results.getResults().get(0).getText(), containsString("Selenide: concise UI tests in Java"));
   }
+
+  @Test
+  public void userCanClick() {
+
+  }
 }
